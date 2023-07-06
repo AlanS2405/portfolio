@@ -250,7 +250,7 @@
 
     .featuredProyect_img {
         max-height: 330px;
-        opacity: 0.13;
+        opacity: 0.05;
     }
 
     .featuredProyect_img:hover {
