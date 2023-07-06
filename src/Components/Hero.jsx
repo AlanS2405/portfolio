@@ -11,10 +11,13 @@ const Hero = () => {
             <span>And I'm a Front End Developer.</span>
         </h2>
         <p className='hero_presentation'> 
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Reiciendis est cumque iusto libero maxime, nostrum, incidunt, 
-            voluptas odit cupiditate minus omnis aspernatur quod iste id 
-            ratione exercitationem veniam dolore? Alias!
+            Welcome to my portfolio. In this site you will find
+            my information along with my most recent work done  
+            with <span>HTML</span>, <span>CSS</span>, <span>JavaScript</span> and <span>React</span>.
+            <br />
+            <br />
+            This design was created to show my skills and identity as a developer. 
+            <span> Now let's start with yours</span>.
         </p>
         <button className='hero_btn'>Contact Me</button>
     </section>

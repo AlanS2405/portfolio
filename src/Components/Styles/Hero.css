@@ -29,7 +29,8 @@
 
 .hero_presentation {
     color: var(--lightest-slate);
-    margin: 2em 0 3em 0;
+    font-size: 1.2rem;
+    margin: 1em 0 2.5em 0;
 }
 
 .hero_presentation span {
@@ -57,6 +58,7 @@
     color: var(--navy);
     background-color: var(--green);
     font-weight: 800;
+    box-shadow: 0 .2rem 1rem rgba(11, 119, 92, 0.432);
 }
 
 /*--------------------------------------------------------------------------MEDIA QUERY*/
