@@ -38,6 +38,7 @@
     padding: 1em;
     position: absolute;
     z-index:2;
+    
 }
 
 .featuredProyect_overline {
@@ -92,6 +93,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 0 .5rem 1rem rgba(11, 119, 92, 0.432);
 }
 
 .featuredProyect_img_link{
@@ -150,6 +152,7 @@
     border-radius: 0.3em;
     gap: 1em;
     padding: 1.5em;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
 }
 
 .otherProjects_head {
@@ -231,6 +234,7 @@
         position: relative;
         z-index: 1;
         grid-area: 1 / 6 / -1 / -1;
+        box-shadow: 0 .5rem 1rem rgba(11, 119, 92, 0.432);
     }
 
     .featuredProyect_img_link::before {
@@ -242,6 +246,7 @@
         right: 0;
         bottom: 0;
         left: 0;
+        
     }
 
     .featuredProyect_img_link::before:hover {
