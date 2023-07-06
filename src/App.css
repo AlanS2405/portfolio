@@ -1,0 +1,176 @@
+.app {
+  width: 100%;
+
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--navy);
+}
+
+/*-----------------------------------------------NAVBAR*/
+
+.header {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 9999;
+}
+
+.navbar {
+  width: 100%;
+
+  height: 80px;
+  padding: 0 5%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: var(--navy);
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+  position: fixed;
+  top: 0;
+}
+
+.navbar_logo {
+  color: var(--green);
+  width: 45px;
+}
+
+.navIcons_desk {
+  display: none;
+}
+
+.menu_icon {
+  width: 40px;
+  height: 40px;
+
+  border: none;
+  background-color: transparent;
+}
+
+.bx-menu-alt-right {
+  font-size: 3em;
+  color: var(--green);
+}
+
+/*-----------------------------------------------SIDEBAR*/
+
+.sidebar {
+  width: 300px;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  top: 0;
+  right: -100%;
+  background-color: var(--light-navy);
+
+  transition: right 0.5s;
+}
+
+.sidebarActive {
+  right: 0;
+}
+
+.sidebar_x {
+  width: 40px;
+  height: 40px;
+
+  position: absolute;
+  top: 10px;
+  right: 20px;
+
+  font-size: 2.5em;
+  color: var(--green);
+
+  border: none;
+  background-color: transparent;
+}
+
+.sidebar ol {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+/*-----------------------------------------------MAIN*/
+
+.main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 5%;
+}
+
+/*-----------------------------------------------FOOTER*/
+.footer {
+  width: 100%;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  margin-bottom: 2em;
+}
+
+.footer_ul {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--slate);
+  gap: 0.5em;
+}
+
+.footer_item{
+  cursor: pointer;
+}
+
+.footer_item:hover{
+  color: var(--green);
+}
+
+.footer_p {
+  color: var(--slate);
+}
+
+.footer_p span {
+  color: var(--green);
+}
+
+/*--------------------------------------------------------------------------MEDIA QUERY*/
+
+@media (min-width: 750px) {
+
+  .navbar {
+    padding: 2em 4em 2em 3em;
+  }
+
+  .navIcons_desk {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu_icon {
+    display: none;
+  }
+
+  .sidebar {
+    display: none;
+  }
+}

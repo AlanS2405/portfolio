@@ -1,0 +1,77 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero_greetings {
+    font-family: 'M PLUS 1 Code', sans-serif;
+    font-weight: 300;
+    font-size: 1.1em;
+    color: var(--green);
+    margin: 0 0 0.5em 0.2em;
+}
+
+.hero_name {
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    color: var(--lightest-slate);
+}
+
+.hero_name span{
+    font-size: 2rem;
+    color: var(--slate);
+}
+
+.hero_presentation {
+    color: var(--lightest-slate);
+    margin: 2em 0 3em 0;
+}
+
+.hero_btn {
+    width: 180px;
+    height: 50px;
+
+    background-color: var(--navy);
+    color: var(--green);
+    font-size: 100%;
+    font-weight: 100;
+    font-family: 'Fira Code', monospace;
+
+    border: solid 1px var(--green);
+    border-radius: 0.2em;
+
+    transition: color 0.2s, background-color 0.2s;
+    cursor: pointer;
+}
+
+.hero_btn:hover {
+    color: var(--navy);
+    background-color: var(--green);
+    font-weight: 800;
+}
+
+/*--------------------------------------------------------------------------MEDIA QUERY*/
+
+@media (min-width: 750px) {
+
+    .hero_greetings {
+        font-weight: 500;
+    }
+
+    .hero_name {
+        font-size: 4rem;
+    }
+
+    .hero_name span{
+        font-size: 4rem;
+    }
+
+    .hero_presentation {
+        width: 45%;
+    }
+}

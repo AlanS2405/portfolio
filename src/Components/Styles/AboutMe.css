@@ -1,0 +1,66 @@
+.aboutMe {
+    width: 100%;
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.block_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.aboutMe_title {
+    margin: 0 0 1em 0;
+    color: var(--lightest-slate);
+}
+
+.aboutMe_title span{
+    color: var(--green);
+    font-family: 'Fira Code', monospace;
+    font-size: 0.7em;
+    font-weight: 300;
+}
+
+.aboutMe_description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;
+    color: var(--slate);
+}
+
+.aboutMe_lenguages {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5em;
+    gap: 3em;
+}
+
+.aboutMe_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.aboutMe_item h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    color: var(--lightest-slate);
+}
+
+.aboutMe_leng {
+    width: 110px;
+    height: 100px;
+}

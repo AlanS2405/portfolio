@@ -1,0 +1,37 @@
+.navbar_items {
+    width: 100%;
+
+}
+
+.navbar_items_ol {
+    font-family: 'Fira Code', monospace;
+  
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 3em;
+  
+    font-size: 18px;
+    font-weight: lighter;
+    color: var(--green);
+  
+    counter-reset: item;
+    list-style-type: none;
+  }
+  
+  .navbar li::before {
+    content: counter(item, decimal-leading-zero) "."; 
+    counter-increment: item;
+  }
+  
+  .navbar_items_ol a {
+    color: #CCD6F6;
+  }
+
+  /*--------------------------------------------------------------------------MEDIA QUERY*/
+
+@media (min-width: 750px) {
+    .navbar_items_ol {
+        font-size: 13px;
+    }
+}

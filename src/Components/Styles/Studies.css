@@ -1,0 +1,33 @@
+.studies {
+    width: 100%;
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.studies_title {
+    margin: 0 0 1em 0;
+    color: var(--lightest-slate);
+}
+
+.studies_title span {
+    color: var(--green);
+    font-family: 'Fira Code', monospace;
+    font-size: 0.7em;
+    font-weight: 300;
+}
+
+.studies_item_title {
+    margin: 0 0 0.3em 0;
+    color: var(--lightest-slate);
+}
+
+.studies_item_title span {
+    color: var(--green);
+}
+
+.studies_item_description {
+    color: var(--slate);
+}

@@ -1,0 +1,70 @@
+.contact {
+    width: 100%;
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contact_title {
+    font-size: 1.5em;
+    color: var(--lightest-slate);
+    margin-bottom: 0.5rem;
+}
+
+.contact_title span {
+    color: var(--green);
+    font-family: 'Fira Code', monospace;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.contact_p {
+    width: 100%;
+    text-align: center;
+    color: var(--slate);
+    margin-bottom: 2rem;
+}
+
+.contact_btn {
+    width: 180px;
+    height: 50px;
+
+    background-color: var(--navy);
+    color: var(--green);
+    font-size: 100%;
+    font-weight: 100;
+    font-family: 'Fira Code', monospace;
+
+    border: solid 1px var(--green);
+    border-radius: 0.2em;
+
+    transition: color 0.2s, background-color 0.2s;
+    cursor: pointer;
+}
+
+.contact_btn:hover {
+    color: var(--navy);
+    background-color: var(--green);
+    font-weight: 800;
+}
+
+/*--------------------------------------------------------------------------MEDIA QUERY*/
+
+@media (min-width: 750px) {
+
+    .contact_title {
+        font-size: 2.5em;
+        color: var(--lightest-slate);
+    }
+
+
+    .contact_p {
+        width: 50%;
+        text-align: center;
+        padding: 1em;
+        color: var(--slate);
+    }
+}
