@@ -5,7 +5,7 @@ const Hero = () => {
 
 
   return (
-    <section className="hero">
+    <section id='hero' className="hero">
         <h1 className='hero_greetings'>{'< Hi :) my name is >'}</h1>
         <h2 className='hero_name'>Alan Solís.
             <span>And I'm a Front End Developer.</span>
@@ -16,7 +16,7 @@ const Hero = () => {
             voluptas odit cupiditate minus omnis aspernatur quod iste id 
             ratione exercitationem veniam dolore? Alias!
         </p>
-        <button className='hero_btn'>{'<'} Contact Me {'>'}</button>
+        <button className='hero_btn'>Contact Me</button>
     </section>
   )
 }

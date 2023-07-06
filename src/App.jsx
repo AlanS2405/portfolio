@@ -24,7 +24,7 @@ const [sidebar, setSidebar] = useState('')
 
       <header className='header'>
         <nav className="navbar">
-            <img className="navbar_logo" src="./AS-logo.svg" alt="logo" />
+            <a href="#hero"><img className="navbar_logo" src="./AS-logo.svg" alt="logo" /></a>
             <div className='navIcons_desk'>
               <NavBarItems />
             </div>

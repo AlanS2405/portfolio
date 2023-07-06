@@ -240,7 +240,7 @@
     .featuredProyect_img_link::before {
         
         content: '';
-        background: var(--green-tint);
+        background: var(--navy-shadow);
         position: absolute;
         top: 0;
         right: 0;
@@ -255,7 +255,7 @@
 
     .featuredProyect_img {
         max-height: 330px;
-        opacity: 0.05;
+        opacity: 0.2;
     }
 
     .featuredProyect_img:hover {
