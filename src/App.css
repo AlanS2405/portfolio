@@ -40,10 +40,6 @@
   backdrop-filter: blur(10px);
 }
 
-.navbar::backdrop{
-
-}
-
 .navbar_logo {
   color: var(--green);
   width: 45px;

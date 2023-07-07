@@ -22,6 +22,7 @@ const Works = () => {
           </p>
           <ul className='featuredProyect_lenguages_container'>
               <li className='featuredProyect_lenguages_items'>React</li>
+              <li className='featuredProyect_lenguages_items'>JavaScript</li>
               <li className='featuredProyect_lenguages_items'>CSS</li>
           </ul>
           <ul className='featuredProyect_links_container'>
