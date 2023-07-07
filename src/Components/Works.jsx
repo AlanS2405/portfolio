@@ -12,7 +12,7 @@ const Works = () => {
         <div className='featuredProyect_container'>
           <p className='featuredProyect_overline'>Featured Proyect</p>
           <h3 className='featuredProyect_title'>
-            <a href="">Name of proyect</a>
+            <a href="">Pokecard APP</a>
           </h3>
           <p className='featuredProyect_description'>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
@@ -27,10 +27,10 @@ const Works = () => {
           </ul>
           <ul className='featuredProyect_links_container'>
               <li className='featuredProyect__links_items'>
-                  <a href=""><i className='bx bxl-github'></i></a>
+                  <a target='_blank' href="https://github.com/AlanS2405/pokecard-app"><i className='bx bxl-github'></i></a>
               </li>
               <li className='featuredProyect__links_items'>
-                  <a href=""><i className='bx bx-link-external'></i></a>
+                  <a target='_blank' href="https://pokecards-app-alan-solis.netlify.app/"><i className='bx bx-link-external'></i></a>
               </li>
           </ul>
         </div>
@@ -45,7 +45,7 @@ const Works = () => {
         <h2 className="otherProjects_title">Other Noteworthy Projects</h2>
           <ul className="otherProjects_grid">
             <li className="otherProjects_item">
-              <a className='otherProjects_link' href="">
+              <a target='_blank' className='otherProjects_link' href="">
               <div className='otherProjects_container'>
                   <ul className='otherProjects_head'>
                     <li className='bx bx-folder_container'>
@@ -53,15 +53,15 @@ const Works = () => {
                     </li>
                     <div className='otherProjects_links_container'>
                         <li className='otherProjects_links_items'>
-                            <a href=""><i className='bx bxl-github'></i></a>
+                            <a target='_blank' href=""><i className='bx bxl-github'></i></a>
                         </li>
                         <li className='otherProjects_links_items'>
-                            <a href=""><i className='bx bx-link-external'></i></a>
+                            <a target='_blank' href=""><i className='bx bx-link-external'></i></a>
                         </li>
                     </div>
                   </ul>
                   <h3 className='otherProjects_item_title'>
-                    <a href="">Title of proyect</a>
+                    <a target='_blank' href="">Title of proyect</a>
                   </h3>
                   <p className='otherProjects_item_description'> 
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -78,7 +78,7 @@ const Works = () => {
               </a>
             </li>
             <li className="otherProjects_item">
-              <a className='otherProjects_link' href="">
+              <a target='_blank' className='otherProjects_link' href="https://users-crud-alan-solis.netlify.app/">
               <div className='otherProjects_container'>
                   <ul className='otherProjects_head'>
                     <li className='bx bx-folder_container'>
@@ -86,15 +86,15 @@ const Works = () => {
                     </li>
                     <div className='otherProjects_links_container'>
                         <li className='otherProjects_links_items'>
-                            <a href=""><i className='bx bxl-github'></i></a>
+                            <a target='_blank' href="https://github.com/AlanS2405/users-crud"><i className='bx bxl-github'></i></a>
                         </li>
                         <li className='otherProjects_links_items'>
-                            <a href=""><i className='bx bx-link-external'></i></a>
+                            <a target='_blank' href="https://users-crud-alan-solis.netlify.app/"><i className='bx bx-link-external'></i></a>
                         </li>
                     </div>
                   </ul>
                   <h3 className='otherProjects_item_title'>
-                    <a href="">Title of proyect</a>
+                    <a target='_blank' href="https://users-crud-alan-solis.netlify.app/">Users Crud</a>
                   </h3>
                   <p className='otherProjects_item_description'> 
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -111,7 +111,7 @@ const Works = () => {
               </a>
             </li>
             <li className="otherProjects_item">
-              <a className='otherProjects_link' href="">
+              <a target='_blank' className='otherProjects_link' href="https://rick-and-morty-app-alan-solis.netlify.app/">
               <div className='otherProjects_container'>
                   <ul className='otherProjects_head'>
                     <li className='bx bx-folder_container'>
@@ -119,15 +119,15 @@ const Works = () => {
                     </li>
                     <div className='otherProjects_links_container'>
                         <li className='otherProjects_links_items'>
-                            <a href=""><i className='bx bxl-github'></i></a>
+                            <a target='_blank' href="https://github.com/AlanS2405/Rick-and-Morty-App"><i className='bx bxl-github'></i></a>
                         </li>
                         <li className='otherProjects_links_items'>
-                            <a href=""><i className='bx bx-link-external'></i></a>
+                            <a target='_blank' href="https://rick-and-morty-app-alan-solis.netlify.app/"><i className='bx bx-link-external'></i></a>
                         </li>
                     </div>
                   </ul>
                   <h3 className='otherProjects_item_title'>
-                    <a href="">Title of proyect</a>
+                    <a target='_blank' href="https://rick-and-morty-app-alan-solis.netlify.app/">Rick and Morty APP</a>
                   </h3>
                   <p className='otherProjects_item_description'> 
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -144,7 +144,7 @@ const Works = () => {
               </a>
             </li>
             <li className="otherProjects_item">
-              <a className='otherProjects_link' href="">
+              <a target='_blank' className='otherProjects_link' href="https://app-clima-alan-solis.netlify.app/">
               <div className='otherProjects_container'>
                   <ul className='otherProjects_head'>
                     <li className='bx bx-folder_container'>
@@ -152,15 +152,15 @@ const Works = () => {
                     </li>
                     <div className='otherProjects_links_container'>
                         <li className='otherProjects_links_items'>
-                            <a href=""><i className='bx bxl-github'></i></a>
+                            <a target='_blank' href="https://github.com/AlanS2405/app-del-clima"><i className='bx bxl-github'></i></a>
                         </li>
                         <li className='otherProjects_links_items'>
-                            <a href=""><i className='bx bx-link-external'></i></a>
+                            <a target='_blank' href="https://app-clima-alan-solis.netlify.app/"><i className='bx bx-link-external'></i></a>
                         </li>
                     </div>
                   </ul>
                   <h3 className='otherProjects_item_title'>
-                    <a href="">Title of proyect</a>
+                    <a target='_blank' href="https://app-clima-alan-solis.netlify.app/">Weatherer APP</a>
                   </h3>
                   <p className='otherProjects_item_description'> 
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -177,7 +177,7 @@ const Works = () => {
               </a>
             </li>
             <li className="otherProjects_item">
-              <a className='otherProjects_link' href="">
+              <a target='_blank' className='otherProjects_link' href="https://galleta-de-la-fortuna-alan-solis.netlify.app/">
               <div className='otherProjects_container'>
                   <ul className='otherProjects_head'>
                     <li className='bx bx-folder_container'>
@@ -185,15 +185,15 @@ const Works = () => {
                     </li>
                     <div className='otherProjects_links_container'>
                         <li className='otherProjects_links_items'>
-                            <a href=""><i className='bx bxl-github'></i></a>
+                            <a target='_blank' href="https://github.com/AlanS2405/galleta-de-la-fortuna"><i className='bx bxl-github'></i></a>
                         </li>
                         <li className='otherProjects_links_items'>
-                            <a href=""><i className='bx bx-link-external'></i></a>
+                            <a target='_blank' href="https://galleta-de-la-fortuna-alan-solis.netlify.app/"><i className='bx bx-link-external'></i></a>
                         </li>
                     </div>
                   </ul>
                   <h3 className='otherProjects_item_title'>
-                    <a href="">Title of proyect</a>
+                    <a target='_blank' href="https://galleta-de-la-fortuna-alan-solis.netlify.app/">Fortune Cookie APP</a>
                   </h3>
                   <p className='otherProjects_item_description'> 
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -210,7 +210,7 @@ const Works = () => {
               </a>
             </li>
             <li className="otherProjects_item">
-              <a className='otherProjects_link' href="">
+              <a target='_blank' className='otherProjects_link' href="https://academlo-ecommerce-alan-solis.netlify.app/">
               <div className='otherProjects_container'>
                   <ul className='otherProjects_head'>
                     <li className='bx bx-folder_container'>
@@ -218,15 +218,15 @@ const Works = () => {
                     </li>
                     <div className='otherProjects_links_container'>
                         <li className='otherProjects_links_items'>
-                            <a href=""><i className='bx bxl-github'></i></a>
+                            <a target='_blank' href="https://github.com/AlanS2405/Ecommerce"><i className='bx bxl-github'></i></a>
                         </li>
                         <li className='otherProjects_links_items'>
-                            <a href=""><i className='bx bx-link-external'></i></a>
+                            <a target='_blank' href="https://academlo-ecommerce-alan-solis.netlify.app/"><i className='bx bx-link-external'></i></a>
                         </li>
                     </div>
                   </ul>
                   <h3 className='otherProjects_item_title'>
-                    <a href="">Title of proyect</a>
+                    <a target='_blank' href="https://academlo-ecommerce-alan-solis.netlify.app/">Academlo E-commerce</a>
                   </h3>
                   <p className='otherProjects_item_description'> 
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
