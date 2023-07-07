@@ -174,6 +174,14 @@
     font-size: 1.7em;
 }
 
+.otherProjects_item {
+    transition: transform 0.2s;
+}
+
+.otherProjects_item:hover {
+    transform: translateY(-15px);
+}
+
 .otherProjects_links_items {
     display: flex;
     justify-content: center;

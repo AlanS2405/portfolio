@@ -8,7 +8,7 @@ const Hero = () => {
     <section id='hero' className="hero">
         <h1 className='hero_greetings'>{'< Hi :) my name is >'}</h1>
         <h2 className='hero_name'>Alan Solís.
-            <span>And I'm a Front End Developer.</span>
+            <span>And I'm a Front End Web Developer.</span>
         </h2>
         <p className='hero_presentation'> 
             Welcome to my portfolio. In this site you will find
