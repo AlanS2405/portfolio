@@ -50,10 +50,10 @@ const [sidebar, setSidebar] = useState('')
         <p className='footer_p'>Built by <span>Alan Solís</span></p>
         <ul className='footer_ul'>
           <li className='footer_item'>
-            <a href=""><i className='bx bxl-github'></i></a>
+            <a target='_blank' href="https://github.com/AlanS2405/portfolio"><i className='bx bxl-github'></i></a>
           </li>
           <li className='footer_item'>
-            <a href=""><i className='bx bxl-linkedin-square'></i></a>
+            <a target='_blank' href="https://www.linkedin.com/in/alan-sol%C3%ADs/"><i className='bx bxl-linkedin-square'></i></a>
           </li>
         </ul>
       </footer>
