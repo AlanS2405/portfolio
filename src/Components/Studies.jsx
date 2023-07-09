@@ -20,7 +20,7 @@ const Studies = () => {
           </p>
         </li>
         <li className="studies_item">
-          <p className="studies_dates">March 2023 - May 2023</p>
+          <p className="studies_dates">April 2023 - May 2023</p>
           <h3 className="studies_item_title">
             Fundations in HTML, CSS and JavaScript <span>at Academlo</span>
           </h3>
