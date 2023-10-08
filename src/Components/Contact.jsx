@@ -12,37 +12,45 @@ const Contact = ({ register, handleSubmit, submit }) => {
         and React, do not hesitate to contact me. I am available for an
         interview or any additional information you may need.
       </p>
-      <form onSubmit={handleSubmit(submit)}>
-        <h3>Name:</h3>
-        <input
-          className=""
-          placeholder="your name"
-          {...register("name")}
-          type="text"
-        />
-        <h3>Email:</h3>
-        <input
-          className=""
-          placeholder="your email"
-          {...register("email")}
-          type="text"
-        />
-        <h3>Message:</h3>
-        <input
-          className=""
-          placeholder="your message"
-          {...register("message")}
-          type="text"
-        />
-        <button className="contact_btn" type="submit">
-          <p>Send me a message!</p>
-        </button>
-        <p className="contact_p">Or...</p>
-        <button className="contact_btn">
-          <a target="_blank" href="mailto:alan.solis.dev@gmail.com">
+
+      <form className="contact_form" onSubmit={handleSubmit(submit)}>
+        <div className="contact_fields">
+          <div>
+            <h3>Name</h3>
+            <input placeholder="let name=" {...register("name")} type="text" />
+          </div>
+          <div>
+            <h3>Email</h3>
+            <input
+              className=""
+              placeholder="let email="
+              {...register("email")}
+              type="text"
+            />
+          </div>
+          <div className="contact_message">
+            <h3>Message</h3>
+            <textarea
+              className="field_message"
+              placeholder="let message= "
+              {...register("message")}
+              type="text"
+            />
+          </div>
+        </div>
+        <div className="contact_btns">
+          <button className="contact_btn" type="submit">
+            <p>Send me a message!</p>
+          </button>
+          <p className="or">Or...</p>
+          <a
+            className="contact_link"
+            target="_blank"
+            href="mailto:alan.solis.dev@gmail.com"
+          >
             Use your email server
           </a>
-        </button>
+        </div>
       </form>
     </section>
   );
