@@ -18,7 +18,9 @@ const Hero = () => {
         This design was created to show my skills and identity as a developer.
         <span> Now let's start with yours</span>.
       </p>
-      <button className="hero_btn">Contact Me</button>
+      <a href="#contact">
+        <button className="hero_btn">Contact Me</button>
+      </a>
     </section>
   );
 };
