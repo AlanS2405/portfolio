@@ -26,6 +26,7 @@ function App() {
     variant: "",
     message: "",
   });
+
   const { register, handleSubmit } = useForm();
 
   const submit = (data) => {
