@@ -1,0 +1,25 @@
+.CVBtn {
+  width: 130px;
+  min-height: 40px;
+  margin: 1.5em;
+  padding: 0.5em;
+
+  background-color: var(--navy);
+  color: var(--green);
+  font-size: 0.8em;
+  font-weight: 100;
+  font-family: 'Fira Code', monospace;
+
+  border: solid 1px var(--green);
+  border-radius: 0.2em;
+
+  transition: color 0.2s, background-color 0.2s;
+  cursor: pointer;
+}
+
+.CVBtn:hover {
+  color: var(--navy);
+  background-color: var(--green);
+  font-weight: 800;
+  box-shadow: 0 .2rem 1rem rgba(11, 119, 92, 0.432);
+}

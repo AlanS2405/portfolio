@@ -33,6 +33,7 @@
   justify-content: space-between;
   align-items: center;
 
+
   background-color: rgba(10, 25, 47, 0.85);
   position: fixed;
   top: 0;
@@ -80,6 +81,8 @@
   background-color: var(--light-navy);
 
   transition: right 0.5s;
+
+  gap: 2em;
 }
 
 .sidebarActive {

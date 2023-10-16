@@ -6,6 +6,7 @@ import Studies from "./Components/Studies";
 import Works from "./Components/Works";
 import NavBarItems from "./Components/NavBarItems";
 import Hero from "./Components/Hero";
+import CVButton from "./Components/CVButton";
 import axios from "./utils/axios";
 import { useForm } from "react-hook-form";
 
@@ -58,6 +59,7 @@ function App() {
           </a>
           <div className="navIcons_desk">
             <NavBarItems />
+            <CVButton />
           </div>
           <button className="menu_icon" onClick={handleSidebar}>
             <i className="bx bx-menu-alt-right bx-burst-active"></i>
@@ -68,6 +70,7 @@ function App() {
               x{" "}
             </button>
             <NavBarItems handleSidebar={handleSidebar} />
+            <CVButton />
           </aside>
         </nav>
       </header>
