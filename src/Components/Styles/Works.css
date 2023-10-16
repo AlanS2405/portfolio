@@ -61,10 +61,11 @@
 }
 
 .featuredProyect_lenguages_container {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     color: var(--lightest-slate);
-    gap: 1em;
+    /* gap: 1em; */
     margin: 1em 0;
     font-size: 0.8rem;
     font-family: 'Fira Code', monospace;
